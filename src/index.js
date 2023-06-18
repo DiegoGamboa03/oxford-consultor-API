@@ -13,7 +13,7 @@ app.use(express.json());
 
 
 //routes
-app.get('/')
+app.use('/', require('./routes/phoneNumbers'));
 
 
 // starting server
